@@ -1,0 +1,1 @@
+変更前  送付先住所：  〒XXXX-XXXX XXXXX県XXXX市XXXXX５丁目３０  Ｉ棟XXX号変更前  連絡先1：     XXX-XXX-XXXX変更前  連絡先2：     XXX-XXXX-XXXX変更後  郵便番号：    XXX-XXXX変更後  送付先住所：  XXXX県XXXX市XXX５丁目５ XXXX１０１号変更後  連絡先1：     XXX-XXXX-XXXX変更後  連絡先2：     

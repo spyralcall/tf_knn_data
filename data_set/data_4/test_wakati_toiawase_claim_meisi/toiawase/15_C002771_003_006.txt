@@ -1,0 +1,5 @@
+MAGICX
+ID
+password
+ログイン
+の
