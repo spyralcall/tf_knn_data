@@ -1,0 +1,56 @@
+#グリッドサーチにsmoteしたデータを渡した時
+#f1に注目
+smote_train_1(label=1): 6718
+smote_train_1(label=0): 6718
+data_1::best_score: 0.9213473835449488
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_2(label=1): 6718
+smote_train_2(label=0): 6718
+data_2::best_score: 0.9185131026458633
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_3(label=1): 6718
+smote_train_3(label=0): 6718
+data_3::best_score: 0.9236019030511984
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_4(label=1): 6718
+smote_train_4(label=0): 6718
+data_4::best_score: 0.9244997470819408
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_5(label=1): 6716
+smote_train_5(label=0): 6716
+data_5::best_score: 0.9309040104760441
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+accuracy: 0.820 +- 0.012
+precision: 0.420 +- 0.023
+recall: 0.640 +- 0.013
+f1: 0.507 +- 0.019
+
+
+#グリッドサーチにsmoteしてないデータを渡した時(通常の学習データ)
+#最終的にテストするときは学習データにsmoteを行う
+#f1に注目
+smote_train_1(label=1): 6718
+smote_train_1(label=0): 6718
+data_1::best_score: 0.42455479576792055
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_2(label=1): 6718
+smote_train_2(label=0): 6718
+data_2::best_score: 0.46444140020119634
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 3}
+smote_train_3(label=1): 6718
+smote_train_3(label=0): 6718
+data_3::best_score: 0.44742324930436095
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 3}
+smote_train_4(label=1): 6718
+smote_train_4(label=0): 6718
+data_4::best_score: 0.43071215434370985
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smote_train_5(label=1): 6716
+smote_train_5(label=0): 6716
+data_5::best_score: 0.44643511750134585
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+accuracy: 0.810 +- 0.022
+precision: 0.407 +- 0.037
+recall: 0.655 +- 0.017
+f1: 0.501 +- 0.025
+

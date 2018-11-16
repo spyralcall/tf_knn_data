@@ -1,0 +1,32 @@
+#グリッドサーチにsmoteennしたデータを用いた場合
+#f1に注目したとき
+smoteenn_train_1(label=1): 6527
+smoteenn_train_1(label=0): 4621
+data_1::best_score: 0.9845797705334599
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smoteenn_train_2(label=1): 6514
+smoteenn_train_2(label=0): 4611
+data_2::best_score: 0.9817126088211041
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smoteenn_train_3(label=1): 6531
+smoteenn_train_3(label=0): 4693
+data_3::best_score: 0.9823909844650703
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smoteenn_train_4(label=1): 6538
+smoteenn_train_4(label=0): 4693
+data_4::best_score: 0.9852979227456417
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+smoteenn_train_5(label=1): 6531
+smoteenn_train_5(label=0): 4836
+data_5::best_score: 0.9845335109153658
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1}
+accuracy: 0.743 +- 0.009
+precision: 0.328 +- 0.011
+recall: 0.744 +- 0.026
+f1: 0.455 +- 0.014
+
+
+#グリッドサーチにsmoteennしていないデータを渡した場合（通常の学習データ）
+#最終的にテストするときは学習データにsmoteを行う
+#f１に注目
+
