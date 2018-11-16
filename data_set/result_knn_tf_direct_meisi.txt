@@ -1,0 +1,53 @@
+weights::uniform
+※f1_scoreに注目した場合
+data_1::best_score: 0.4233167617809079
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_2::best_score: 0.4704854530712132
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 3, 'weights': 'uniform'}
+data_3::best_score: 0.4566412489387232
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 3, 'weights': 'uniform'}
+data_4::best_score: 0.43158440456251385
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_5::best_score: 0.441895714583989
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+accuracy: 0.851 +- 0.024
+precision: 0.512 +- 0.103
+recall: 0.451 +- 0.055
+f1: 0.468 +- 0.017
+
+
+※recallに注目した場合
+data_1::best_score: 0.4660592396390055
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_2::best_score: 0.4880691607754802
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_3::best_score: 0.4651777334810875
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_4::best_score: 0.4721659972780332
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_5::best_score: 0.46641530240607965
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+accuracy: 0.823 +- 0.014
+precision: 0.406 +- 0.035
+recall: 0.483 +- 0.019
+f1: 0.441 +- 0.028
+
+
+weights::distance
+
+data_1::best_score: 0.4336826595845906
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 2, 'weights': 'distance'}
+data_2::best_score: 0.48445513327383666
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 2, 'weights': 'distance'}
+data_3::best_score: 0.47179562556516036
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 2, 'weights': 'distance'}
+data_4::best_score: 0.4539953391254696
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 4, 'weights': 'distance'}
+data_5::best_score: 0.46042187894819475
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 2, 'weights': 'distance'}
+accuracy: 0.873 +- 0.020
+precision: 0.640 +- 0.163
+recall: 0.376 +- 0.032
+f1: 0.462 +- 0.026
+
+
