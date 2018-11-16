@@ -1,0 +1,1 @@
+従業員番号：          XXXXXXXXX勤務先名：            XXXXXX株式会社変更前  送付先住所：  〒XXX-XXX XXXXX県XXXX市XX区XXXX町２５XX変更前  連絡先1：     XXX-XXX-XXXX変更前  連絡先2：     XXX-XXXX-XXXX変更後  郵便番号：    XXX-XXXX変更後  送付先住所：  XX変更後  連絡先1：     XXX-XXX-XXXX変更後  連絡先2：     XXX-XXXX-XXXX
