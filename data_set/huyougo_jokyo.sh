@@ -16,13 +16,14 @@ for d in {1..5};do
 	    grep -v [a-z] |\
 	    grep -v [A-Z] |\
 	    grep -v [ａ-ｚ]|\
+	    grep -v [Ａ-Ｚ]|\
 	    #半角カナを全角カナに変換
 	    nkf -w > ../claim_jokyo/jokyo_$f
     done
 
     #クレームの不要語の書き出し
     for f in *;do
-	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] $f
+	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] -e [Ａ-Ｚ] $f
     done > ../huyougo.csv
         
     cd ../toiawase;
@@ -34,13 +35,14 @@ for d in {1..5};do
 	    grep -v [a-z] |\
 	    grep -v [A-Z] |\
 	    grep -v [ａ-ｚ]|\
+	    grep -v [Ａ-Ｚ]|\
 	    #半角カナを全角カナに変換
 	    nkf -w > ../toiawase_jokyo/jokyo_$f
     done
     
     #問い合わせの不要語の書き出し
     for f in *;do
-	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] $f
+	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] -e [Ａ-Ｚ] $f
     done >> ../huyougo.csv
 
     cd ../../../;
@@ -67,13 +69,14 @@ for d in {1..5};do
 	    grep -v [a-z] |\
 	    grep -v [A-Z] |\
 	    grep -v [ａ-ｚ]|\
+	    grep -v [Ａ-Ｚ]|\
 	    #半角カナを全角カナに変換
 	    nkf -w > ../claim_jokyo/jokyo_$f
     done
     
     #クレームの不要語の書き出し
     for f in *;do
-	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] $f
+	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] -e [Ａ-Ｚ] $f
     done > ../huyougo.csv
     
     cd ../toiawase;
@@ -85,13 +88,14 @@ for d in {1..5};do
 	    grep -v [a-z] |\
 	    grep -v [A-Z] |\
 	    grep -v [ａ-ｚ]|\
+	    grep -v [Ａ-Ｚ]|\
 	    #半角カナを全角カナに変換
 	    nkf -w > ../toiawase_jokyo/jokyo_$f
     done
     
     #問い合わせの不要語の書き出し
     for f in *;do
-	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] $f
+	grep -e [0-9] -e [０-９] -e [a-z] -e [A-Z] -e [ａ-ｚ] -e [Ａ-Ｚ] $f
     done >> ../huyougo.csv
 
     cd ../../../;
