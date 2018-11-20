@@ -1,0 +1,16 @@
+data_1::best_score: 0.46524803238312257
+data_1::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_2::best_score: 0.4412651724967037
+data_2::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_3::best_score: 0.45512401885189785
+data_3::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_4::best_score: 0.4460483941435434
+data_4::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+data_5::best_score: 0.46230034369338535
+data_5::best_params: {'algorithm': 'brute', 'n_neighbors': 1, 'weights': 'uniform'}
+
+
+accuracy: 0.773 +- 0.010
+precision: 0.355 +- 0.015
+recall: 0.700 +- 0.026
+f1: 0.471 +- 0.018
