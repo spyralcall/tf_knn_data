@@ -1,6 +1,6 @@
 for f in {1..5};do
     cd data_$f;
-    cd train_wakati_toiawase_claim_meisi;
+    cd train_wakati_toiawase_claim_meisi_dou;
     mkdir claim;
     mkdir toiawase;
     for l in *_A0*.txt;do
@@ -16,7 +16,7 @@ done
 
 for f in {1..5};do
     cd data_$f;
-    cd test_wakati_toiawase_claim_meisi;
+    cd test_wakati_toiawase_claim_meisi_dou;
     mkdir claim;
     mkdir toiawase;
     for l in *_A0*.txt;do

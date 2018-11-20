@@ -1,0 +1,22 @@
+#グリッドサーチの模索範囲指定
+param_range_gamma = [0.01, 0.001, 0.0001]
+param_range_C = [10.0, 100.0, 1000.0]
+param_grid = [{"svc__C":param_range_C, "svc__gamma":param_range_gamma, "svc__kernel":["rbf"]}]
+
+※f1に注目した場合
+data_1::best_score: 0.7273272325110228
+data_1::best_params: {'svc__C': 100.0, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}
+data_2::best_score: 0.7264838367435812
+data_2::best_params: {'svc__C': 1000.0, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}
+data_3::best_score: 0.7235903152963221
+data_3::best_params: {'svc__C': 100.0, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}
+data_4::best_score: 0.730826683515135
+data_4::best_params: {'svc__C': 1000.0, 'svc__gamma': 0.001, 'svc__kernel': 'rbf'}
+data_5::best_score: 0.7228503933701551
+data_5::best_params: {'svc__C': 1000.0, 'svc__gamma': 0.001, 'svc__kernel': 'rbf'}
+
+
+accuracy: 0.933 +- 0.005
+precision: 0.873 +- 0.040
+recall: 0.626 +- 0.025
+f1: 0.729 +- 0.020
